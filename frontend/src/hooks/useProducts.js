@@ -25,7 +25,7 @@ export const useProducts = (filters = {}) => {
     try {
       const params = new URLSearchParams({
         page: pageNum,
-        limit: 20,
+        limit: 12,
         ...Object.fromEntries(
           Object.entries(filters).filter(([, v]) => v !== '' && v != null)
         ),
