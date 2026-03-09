@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Projects\\petmart\\backend\\logs\\.9ea71a940730b744df5d51dac5d77c44e0b3f854-audit.json",
+    "files": [
+        {
+            "date": 1773025542019,
+            "name": "C:\\Projects\\petmart\\backend\\logs\\petmart-2026-03-09.log",
+            "hash": "808abe6b06b3807e7b784e4cd4f1f8a0765987caf7b1366cf6b741ff0987f83a"
+        }
+    ],
+    "hashType": "sha256"
+}
