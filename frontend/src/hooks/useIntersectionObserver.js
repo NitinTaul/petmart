@@ -13,7 +13,7 @@ export const useIntersectionObserver = (callback, options = {}) => {
 
     const observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) callback();
-    }, { threshold: 0.1, ...options });
+    }, { threshold: 0.1, rootMargin: '300px', ...options });
 
     observer.observe(el);
     return () => observer.disconnect();
