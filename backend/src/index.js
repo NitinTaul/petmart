@@ -16,7 +16,11 @@ const app = express();
 // ── Security ─────────────────────────────────────────────
 app.use(helmet());
 app.use(cors({
- origin: ['http://localhost:5173', 'http://localhost:5174'],
+  origin: [
+    'http://localhost:5173',
+    'http://localhost:5174',
+    process.env.FRONTEND_URL,
+  ],
   credentials: true,
 }));
 
